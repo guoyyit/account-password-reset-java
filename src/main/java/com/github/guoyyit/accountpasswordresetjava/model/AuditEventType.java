@@ -1,0 +1,15 @@
+package com.github.guoyyit.accountpasswordresetjava.model;
+
+public enum AuditEventType {
+    ACCOUNT_REGISTERED,
+    LOGIN_SUCCESS,
+    LOGIN_FAILURE,
+    LOGOUT,
+    SESSIONS_REVOKED_ALL,
+    RESET_REQUESTED,
+    RESET_REQUEST_RATE_LIMITED,
+    RESET_VERIFY_SUCCESS,
+    RESET_VERIFY_FAILURE,
+    RESET_CONFIRM_SUCCESS,
+    RESET_CONFIRM_FAILURE
+}
